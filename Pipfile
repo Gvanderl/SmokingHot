@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+sklearn = "*"
+tensorflow-gpu = "*"
+pillow = "*"
+tqdm = "*"
+scikit-image = "*"
+trimesh = "*"
+pyopengl = "*"
+ffmpeg = "*"
+setuptools = "*"
+wheel = "*"
+opencv-python = "*"
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
