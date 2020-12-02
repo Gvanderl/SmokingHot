@@ -18,6 +18,8 @@ setuptools = "*"
 wheel = "*"
 opencv-python = "*"
 torchvision = "*"
+torch = "*"
+pycocotools = "*"
 
 [dev-packages]
 
