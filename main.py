@@ -12,7 +12,7 @@ from human_models.apps.simple_test import simple_test
 from pathlib import Path
 
 project_dir = Path(__file__).resolve().parent
-file_name = Path("group.png")
+file_name = Path("bryce.png")
 image_dir = project_dir / "input/"
 image_path = image_dir / file_name
 assert image_path.exists()
